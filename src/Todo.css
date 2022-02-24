@@ -1,0 +1,21 @@
+.todoapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  font-size: 21px;
+}
+.todoapp input {
+  width: 260px;
+  /* max-width: 500px; */
+  height: 50px;
+  font-size: 21px;
+  padding-left: 12px;
+  /* flex-basis: 100%;
+  flex-flow: 100%; */
+}
+

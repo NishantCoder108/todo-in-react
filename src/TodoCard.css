@@ -1,0 +1,32 @@
+input {
+  width: 30px;
+  height: 30px;
+  padding-top: 2px;
+}
+
+.todocard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  vertical-align: center;
+  align-content: flex-end;
+  margin: 16px 0px;
+  border-top: 1px  solid rgb(197, 167, 167);
+  padding: 4px;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.todocard_wrap {
+  border: 2px solid rgb(107, 138, 107);
+  padding: 9px;
+}
+/* .checkbox{
+    margin-top: 30px;
+} */
+
+.todocard_done {
+  display: flex;
+  justify-content: space-around;
+}
